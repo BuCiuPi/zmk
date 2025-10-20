@@ -58,7 +58,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFTNCAPSLOCK";
             #binding-cells = <0>;
-            bindings = <&kp LSFT>, <&kp CAPS>;
+            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+
             tapping-term-ms = <100>;
         };
     };
