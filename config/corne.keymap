@@ -54,17 +54,11 @@
     };
 
     behaviors {
-        shift-capslock:
-
         shiftNcapslock: shiftNcapslock {
-            :
-
-            shift-capslock
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFTNCAPSLOCK";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
-
+            bindings = <&kp LSFT>, <&kp CAPS>;
             tapping-term-ms = <100>;
         };
     };
