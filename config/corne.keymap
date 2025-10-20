@@ -13,7 +13,7 @@
         code_beautify: code_beautify {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LA(F))>;
+            bindings = <&kp LA(LS(F))>;
             label = "CODE_BEAUTIFY";
         };
 
