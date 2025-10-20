@@ -109,10 +109,10 @@
 
         layer_both {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &pre_desktop  &show_desktop   &nex_desktop  &trans  &trans  &trans
-&trans      &trans        &trans        &trans        &screen_shot  &screen_record    &trans        &code_beautify  &trans        &trans  &trans  &trans
-&trans      &trans        &trans        &trans        &trans        &trans            &trans        &trans          &trans        &trans  &trans  &trans
-                                        &trans        &trans        &trans            &trans        &trans          &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &pre_desktop  &show_desktop   &nex_desktop  &trans  &trans  &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans        &screen_shot  &screen_record    &trans        &code_beautify  &trans        &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans            &trans        &trans          &trans        &trans  &trans  &trans
+                                            &trans        &trans        &trans            &trans        &trans          &trans
             >;
         };
     };
